@@ -1,2 +1,0 @@
-# Bidata-Siti.
-Biografi Siti.

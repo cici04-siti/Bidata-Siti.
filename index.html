@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biodata Diri - Cici</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f6ff;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #9f79e8;
+    }
+
+    .header h1 {
+      margin: 15px 0 5px;
+      font-size: 28px;
+      color: #6a5acd;
+    }
+
+    .header p {
+      margin: 0;
+      font-size: 16px;
+      color: #777;
+    }
+
+    .about-me {
+      text-align: justify;
+      margin: 20px 0;
+      background: #f9f6ff;
+      padding: 15px 20px;
+      border-left: 5px solid #9f79e8;
+      border-radius: 8px;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      color: #6a5acd;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .biodata-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .biodata-table td {
+      padding: 10px 8px;
+      vertical-align: top;
+    }
+
+    .label {
+      font-weight: bold;
+      width: 35%;
+      color: #555;
+    }
+
+    .value {
+      width: 65%;
+    }
+
+    .skills-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .skill-box {
+      background: #e3e7ff;
+      padding: 15px;
+      border-radius: 10px;
+      flex: 1;
+      min-width: 200px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .skill-box img {
+      width: 100%;
+      max-height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #f6f6ff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      line-height: 1.8;
+    }
+
+    .contact a {
+      color: #6a5acd;
+      text-decoration: none;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <img src="img.jpg6.jpeg">
+      <h1>Siti Nurwahidah</h1>
+      <p>Pelajar SMKN 1 Kawali - RPL</p>
+    </div>
+
+    <div class="about-me">
+      Hai!  Aku adalah seorang pelajar SMKN 1 KAWALI, jurusan Rekayasa Perangkat Lunak (RPL) Dan saat ini duduk di kelas 11. Saat ini aku sedang belajar tentang <strong>Basis Data</strong>, <strong>HTML</strong>, <strong>CSS</strong>, dan <strong>Bootstrap</strong>. Selain itu, aku juga aktif berOrganisasi dan mengikuti Ekstrakurikuler. Bagiku belajar hal baru dan berproses adalah bagian seru dari perjalanan.
+    </div>
+
+    <div class="section">
+      <h2>Data Pribadi</h2>
+      <table class="biodata-table">
+        <tr>
+          <td class="label">Nama Lengkap</td>
+          <td class="value">Siti Nurwahidah</td>
+        </tr>
+        <tr>
+          <td class="label">Nama Panggilan</td>
+          <td class="value">Cici</td>
+        </tr>
+        <tr>
+          <td class="label">Tempat, Tanggal Lahir</td>
+          <td class="value">Ciamis, 04 Januari 2009</td>
+        </tr>
+        <tr>
+          <td class="label">Jenis Kelamin</td>
+          <td class="value">Perempuan</td>
+        </tr>
+        <tr>
+          <td class="label">Agama</td>
+          <td class="value">Islam</td>
+        </tr>
+        <tr>
+          <td class="label">Alamat</td>
+          <td class="value">Lumbung, Ciamis, Jawa Barat</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Riwayat Pendidikan</h2>
+      <table class="biodata-table">
+        <tr>
+          <td class="label">SD</td>
+          <td class="value">SDN 1 Lumbung</td>
+        </tr>
+        <tr>
+          <td class="label">SMP</td>
+          <td class="value">SMPN 1 Lumbung </td>
+        </tr>
+        <tr>
+          <td class="label">SMK</td>
+          <td class="value">SMKN 1 Kawali - Rekayasa Perangkat Lunak</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Keahlian</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <img src="img1.jpg" alt="UI Design">
+          <p>OSIS</p>
+        </div>
+        <div class="skill-box">
+          <img src="img3.jpg" alt="Coding">
+          <p>BANTARA</p>
+        </div>
+        <div class="skill-box">
+          <img src="img4.jpg" alt="Editing">
+          <p>PEMULA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Hobi & Cita-cita</h2>
+      <table class="biodata-table">
+        <tr>
+          <td class="label">Hobi</td>
+          <td class="value">Nonton, scroll</td>
+        </tr>
+        <tr>
+          <td class="label">Cita-cita</td>
+          <td class="value">Wanita karir</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section contact">
+      <h2>KONTAK SAYA </h2>
+      <p>Email: <a href="mailto:nurwahidahsiti84@gmail.com">nurwahidahsiti84@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/stinrwhd?igsh=MXI0NnhidG9ycW05dA==" target="_blank">@stinrwhd</a></p>
+      <p>WhatsApp: <a href="https://wa.me/6281914949079" target="_blank">+62 1914 9490 79</a></p>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 - Biodata by Cici 
+    </div>
+  </div>
+
+</body>
+</html>
